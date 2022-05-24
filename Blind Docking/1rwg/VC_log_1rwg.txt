@@ -1,0 +1,1 @@
+CHI energy penalties NOT applied to torsion in linkage b/w GAD   1  and ASG   2 . CHI energy penalties NOT applied to torsion in linkage b/w ASG   2  and ASG   3 . CHI energy penalties NOT applied to torsion in linkage b/w GCT   3  and ASG   4 . 

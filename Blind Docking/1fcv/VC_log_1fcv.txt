@@ -1,0 +1,1 @@
+CHI energy penalties applied to torsion in linkage b/w GCU   1  and NAG   2 . CHI energy penalties applied to torsion in linkage b/w NAG   2  and GCU   3 . CHI energy penalties NOT applied to torsion in linkage b/w GCU   3  and NAG   4 . 

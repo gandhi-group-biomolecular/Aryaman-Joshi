@@ -1,0 +1,1 @@
+CHI energy penalties applied to torsion in linkage b/w Z9H   1  and GU1   2 . CHI energy penalties NOT applied to torsion in linkage b/w GU1   2  and GU6   3 . CHI energy penalties NOT applied to torsion in linkage b/w GU6   3  and Z9K   4 . CHI energy penalties applied to torsion in linkage b/w Z9K   4  and Z9L   5 . 

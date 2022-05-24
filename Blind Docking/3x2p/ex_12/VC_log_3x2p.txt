@@ -1,0 +1,1 @@
+CHI energy penalties applied to torsion in linkage b/w BGC   1  and BGC   2 . CHI energy penalties applied to torsion in linkage b/w BGC   2  and BGC   3 . CHI energy penalties applied to torsion in linkage b/w BGC   3  and BGC   4 . CHI energy penalties applied to torsion in linkage b/w BGC   4  and BGC   5 . 
