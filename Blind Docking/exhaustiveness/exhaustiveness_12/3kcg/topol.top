@@ -1,0 +1,49 @@
+;
+;	File 'topol.top' was generated
+;	By user: unknown (1000)
+;	On host: DESKTOP-KLPH6AI
+;	At date: Tue May 31 09:41:13 2022
+;
+;	This is a standalone topology file
+;
+;	Created by:
+;	            :-) GROMACS - gmx pdb2gmx, 2020.1-Ubuntu-2020.1-1 (-:
+;	
+;	Executable:   /usr/bin/gmx
+;	Data prefix:  /usr
+;	Working dir:  /mnt/f/Projects/QUT/Cluspro vs Glycotorch/GlycoTorch/3kcg
+;	Command line:
+;	  gmx pdb2gmx -f 3kcg_receptor.pdb -o receptor.gro -water tip3p -missing -ignh
+;	Force field was read from the standard GROMACS share directory.
+;
+
+; Include forcefield parameters
+#include "oplsaa.ff/forcefield.itp"
+
+; Include chain topologies
+#include "topol_Protein_chain_L.itp"
+#include "topol_Protein_chain_H.itp"
+#include "topol_Protein_chain_I.itp"
+
+; Include water topology
+#include "oplsaa.ff/tip3p.itp"
+
+#ifdef POSRES_WATER
+; Position restraint for each water oxygen
+[ position_restraints ]
+;  i funct       fcx        fcy        fcz
+   1    1       1000       1000       1000
+#endif
+
+; Include topology for ions
+#include "oplsaa.ff/ions.itp"
+
+[ system ]
+; Name
+---
+
+[ molecules ]
+; Compound        #mols
+Protein_chain_L     1
+Protein_chain_H     1
+Protein_chain_I     1

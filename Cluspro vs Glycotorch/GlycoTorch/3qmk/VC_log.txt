@@ -1,0 +1,1 @@
+CHI energy penalties NOT applied to torsion in linkage b/w A00   1  and A00   2 . CHI energy penalties applied to torsion in linkage b/w A00   2  and A00   3 . CHI energy penalties applied to torsion in linkage b/w A00   3  and A00   4 . 
